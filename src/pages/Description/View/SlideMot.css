@@ -1,0 +1,75 @@
+.Slider div{
+    line-height: 1;
+    font-weight: bold;
+}
+
+.Slider div div{
+    width: 100%;
+    text-align: center;
+}
+
+.Slider div div p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Mots-{
+    background-color: var(--main-black);
+    color: var(--main-white);
+    min-height: 5vh;
+    display: flex;
+    overflow: hidden;
+    width: 300%;
+    animation: sliderNegatif 8s infinite alternate-reverse;
+}
+
+.MotsPositif{
+    background-color: var(--main-white);
+    color: var(--main-color);
+    min-height: 5vh;
+    display: flex;
+    overflow: hidden;
+    width: 300%;
+    animation: sliderPositif 8s infinite alternate-reverse;
+}
+
+.Slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+@keyframes sliderNegatif{
+    0%{
+        transform: translateX(-0%);
+    }10%{
+        transform: translateX(-0%);
+    }45%{
+        transform: translateX(-33.333%);
+    }70%{
+        transform: translateX(-33.333%);
+    }90%{
+        transform: translateX(-66.666%);
+    }100%{
+        transform: translateX(-66.666%);
+    }
+}
+
+@keyframes sliderPositif{
+    0%{
+        transform: translateX(-66.666%);
+    }10%{
+        transform: translateX(-66.666%);
+    }45%{
+        transform: translateX(-33.333%);
+    }70%{
+        transform: translateX(-33.333%);
+    }90%{
+        transform: translateX(-0%);
+    }100%{
+        transform: translateX(-0%);
+    }
+}

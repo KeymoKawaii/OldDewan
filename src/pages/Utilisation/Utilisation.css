@@ -1,0 +1,135 @@
+.CasUtilisation{
+    width: 100%;
+}
+
+.CasUtilisation div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.CasUtilisation div div {
+    width: auto;
+    height: 30vh;
+    min-width: 250px;
+    color: var(--main-white);
+    margin: auto;
+}
+
+.CasUtilisation .seul {
+    background-image: url("../../img/solo_or_team.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 26vw;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    order: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 25px -25px inset;
+    flex: 1 1 0%;
+    overflow: hidden;
+}
+
+.CasUtilisation .conduite {
+    background-image: url("../../img/success-4705451_1920.jpg");
+    background-position: right;
+    background-size: cover;
+    width: 50%;
+    height: 26vw;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    order: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 25px -25px inset;
+    flex: 1 1 0%;
+    overflow: hidden;
+}
+
+.CasUtilisation .smartphone {
+    background-image: url("../../img/office-620822_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 26vw;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    order: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 25px -25px inset;
+    flex: 1 1 0%;
+    overflow: hidden;
+}
+
+.CasUtilisation{
+    width: 100%;
+}
+
+.CasUtilisation p{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.CasUtilisation .Paragraphe{
+    color: var(--main-color);
+    padding-bottom: 5vh;
+    font-size: 2.5rem;
+    padding-top: 5vh;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ADN .Slider .sliderW{
+    overflow: hidden;
+    width: 100%;
+}
+
+.Slider .sliderW{
+    background-color: var(--main-white);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 300%;
+    animation: slider 8s infinite alternate-reverse;
+}
+
+.sliderW div{
+    font-size: 1.7rem !important;
+}
+.sliderW p{
+    display: block;
+}
+
+
+@keyframes slider{
+    0%{
+        transform: translateX(-0%);
+    }10%{
+        transform: translateX(-0%);
+    }45%{
+        transform: translateX(-33.333%);
+    }70%{
+        transform: translateX(-33.333%);
+    }90%{
+        transform: translateX(-66.666%);
+    }100%{
+        transform: translateX(-66.666%);
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .CasUtilisation p{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+}

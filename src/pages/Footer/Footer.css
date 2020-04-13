@@ -1,0 +1,77 @@
+footer img {
+    width: 30px;
+}
+footer{
+    background-color: var(--main-grey);
+    color: var(--main-black);
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 2vh;
+    margin: auto;
+    align-items: flex-start;
+    height: auto;
+}
+
+footer div div{
+    width:15%;
+    min-width: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+footer .TextCoord div{
+    width:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    vertical-align: text-top;
+}
+
+footer .rs{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+footer .rs p{
+    font-size: 20px;
+}
+
+footer div a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+footer .rs img{
+    margin: 10px;
+}
+
+footer .by{
+    margin-bottom: 0px;
+    padding-top: 5vh;
+}
+
+footer div p {
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px){
+    footer{
+        flex-wrap: wrap;    
+    }
+}

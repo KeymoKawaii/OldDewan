@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.FirstPage{
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../img/team-3653392_1920.jpg");
+    z-index: -1;
+}
+
+.CoronaPage{
+    position: absolute;
+    z-index: 1;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    animation: SlideAccueil1 28s infinite;
+}
+
+.CoronaPage p{
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+}
+
+.CoronaPage p a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+h1{
+    font-size: 5rem;
+    display: block;
+    color: var(--main-white);
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 15vh;
+}
+
+.slogan{
+    display: block;
+    padding-top: 10%;
+    padding-left: 35%;
+    width: 90%;
+}
+
+.titre{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header h1 span hr{
+    border: white 3px solid;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 7%;
+}
+
+header h1 span .LMillieu{
+    margin-left: 10%;
+}
+
+
+header img {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 60px;
+    transform: rotate(90deg) ;
+    animation: Arrow 1s infinite alternate-reverse;
+}
+
+@media screen and (max-width: 1024px){
+    h1{
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 30px;
+
+    }header h1 span hr{
+        border: white 3px solid;
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 30%;
+    }header img{
+        left: 48%;
+    }
+    
+    header h1 span .LMillieu{
+        margin-left: 35%;
+    }.CoronaPage p{
+        font-size: 20px !important;
+        width: 90%;
+    }.titre{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .CoronaPage p{
+        font-size: 12px !important;
+        width: 90%;
+    }.titre{
+        font-size: 20px;
+    }
+}
+
+@keyframes Arrow{
+    from{
+        bottom: 50px;
+    }to{
+        bottom: 70px;
+    }
+}
+
+@keyframes SlideAccueil1{
+    0%{
+        opacity: 0;
+    }20%{
+        opacity: 0;
+    }25%{
+        opacity: 1;
+    }45%{
+        opacity: 1;
+    }50%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
+}
+
+p{
+    font-size: var(--main-fsize);
+}

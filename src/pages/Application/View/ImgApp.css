@@ -1,0 +1,34 @@
+.Imgapp{
+    width: 100%;
+    background-color: var(--main-grey);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.Imgapp .EDDMA{
+    width: 70%;
+    margin: auto;
+}
+
+.Imgapp .EDDMATEL{
+    width: 70%;
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .MockupApp .MockupTextL{
+    padding-bottom: 2vh;
+    }.MockupApp .MockupTextR{
+        padding-top: 2vh;
+    }.MockupApp p{
+        width: 70%;
+        margin: auto !important;
+    }.Imgapp .EDDMATEL{
+        width: 95%;
+        display: block;
+        margin: auto;
+    }.Imgapp .EDDMA{
+        display: none;
+    }
+    
+}

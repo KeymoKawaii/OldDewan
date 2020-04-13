@@ -1,0 +1,143 @@
+.equipe{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+}
+.Ecosysteme div p{
+    width: 100%;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin: auto;
+    display: none;
+
+}
+
+.equipe h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.equipe h5{
+    font-size: 2rem;
+    color: var(--main-white);
+    padding-bottom: 1vh;
+    width: 100%;
+    margin-block-end: 0.5em;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.equipe h6{
+    color: var(--main-white);
+    padding-bottom: 1vh;
+    width: 100%;
+    margin-block-end: 0.5em;
+    font-size: 24px;
+    z-index: 5;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.equipe hr{
+    border: 2px var(--main-color) solid;
+    width: 200px;
+    margin-left: 45%;
+    margin-bottom: 2vh;
+}
+
+.equipe div {
+    display: flex;
+    justify-content: stretch;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Ecosysteme {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    vertical-align: text-top;
+}
+
+.Ecosysteme .blockequipe{
+    width: 10%;
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.Ecosysteme div img{
+    display: none;
+}
+
+.Guena{
+    background-image: url("../../img/Guena.jpg");
+}
+
+.Paolo{
+    background-image: url("../../img/Paolo.jpg");
+}
+
+.Aurelie{
+    background-image: url("../../img/Aurelie.jpg");
+}
+
+.ESG{
+    background-image: url("../../img/ESG.jpg");
+}
+
+.Maya{
+    background-image: url("../../img/Maya.jpg");
+}
+
+.Hover{
+    display: none;
+    width: 100%;
+    animation: Hover 0.5s;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.Ecosysteme div:hover .Hover{
+    display: block;
+}
+.Ecosysteme div:hover p{
+    display: block;
+}
+
+.Ecosysteme div:hover h6{
+    display: none;
+}
+
+@keyframes Hover{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .Ecosysteme .blockequipe{
+        height: 150px;
+    }.equipe hr{
+        margin: auto;
+        margin-bottom: 20px;
+    }.Ecosysteme div:hover .Hover{
+        display: block;
+    }.Ecosysteme div:hover p{
+        display: block;
+    }
+}

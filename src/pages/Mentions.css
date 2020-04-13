@@ -1,0 +1,18 @@
+.MentionsLegales h1{
+    color: black;
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.MentionsLegales p{
+    padding-left: 15%;
+    padding-right: 15%;
+    min-width: 100vh;
+    line-height: 1.8;
+}
+
+.MentionsLegales{
+    min-height: 100vh;
+}

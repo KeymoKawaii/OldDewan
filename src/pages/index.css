@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --main-color: #c41686;
+  --main-white: white;
+  --main-black: black;
+  --main-yellow: #ffc000;
+  --main-blue: #4472c4;
+  --main-border-radius: 50px;
+  --main-grey: #ececec;
+  --main-fsize: 16px;
+}

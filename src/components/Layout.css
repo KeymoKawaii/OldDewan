@@ -1,0 +1,92 @@
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    top: 20px;
+}
+
+nav ul a {
+    color: var(--main-black);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    width: 100vw;
+    background-color: var(--main-white);
+    min-height: 6vh;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
+}
+
+/* a:hover a {
+    background-color: white;
+    color: purple;
+} */
+
+.logo{
+    position : absolute;
+    display : block ;
+    left: 5px;
+    top: 5px;
+    width: 50px;
+}
+
+@media screen and (min-width: 1024px){
+    .btnNav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .NavPC{
+        display: none;
+    }.NavMobile{
+        position: absolute;
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: var(--main-white);
+        animation: NavMobile 0.5s;
+        min-height: 100vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }.NavMobile li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: black 1px solid;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        width: 25px;
+    }.btnNav{
+        width: 25px !important;
+    }
+}
+
+.btnNav{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    width: 30px;
+}
+
+@keyframes NavMobile{
+    0%{
+        right: -150px;
+    }100%{
+        right: 0px;
+    }
+}

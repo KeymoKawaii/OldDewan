@@ -1,0 +1,26 @@
+.TextCoord{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.TextCoord  div img{
+    width: 30px;
+}
+
+.TextCoord div{
+    display: flex;
+}
+
+.TextCoord h3{
+    font-size: 24px;
+}
+
+.TextCoord hr{
+    width: 75%;
+    border: black 1px solid;
+}
+
+.TextCoord p{
+    font-size: 12px;
+}

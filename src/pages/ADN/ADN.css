@@ -1,0 +1,86 @@
+.ADN{
+    background-color: var(--main-white);
+    color: var(--main-black);
+    width: 100%;
+    text-align: center;
+}
+
+.ADN p{
+    display: block;
+    margin: 20px;
+}
+
+.ADN .Slider div{
+    overflow: hidden;
+    width: 100%;
+}
+
+.ADN .Slider .sliderB{
+    background-color: var(--main-black);
+    color: var(--main-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 300%;
+    animation: slider 8s infinite alternate-reverse;
+}
+
+
+.ADN .Slider .container{
+    background-color: var(--main-white);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 400%;
+    animation: slider4 10s infinite alternate-reverse;
+    font-weight: bold;
+}
+
+.ADN .Slider .container div{
+    text-align: center;
+}
+
+.ADN .Slider div{
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes slider4{
+    0%{
+        transform: translateX(-0%);
+    }5%{
+        transform: translateX(-0%);
+    }20%{
+        transform: translateX(-25%);
+    }25%{
+        transform: translateX(-25%);
+    }45%{
+        transform: translateX(-50%);
+    }50%{
+        transform: translateX(-50%);
+    }70%{
+        transform: translateX(-75%);
+    }75%{
+        transform: translateX(-75%);
+    }
+}
+
+@keyframes slider{
+    0%{
+        transform: translateX(-0%);
+    }10%{
+        transform: translateX(-0%);
+    }45%{
+        transform: translateX(-33.333%);
+    }70%{
+        transform: translateX(-33.333%);
+    }90%{
+        transform: translateX(-66.666%);
+    }100%{
+        transform: translateX(-66.666%);
+    }
+}

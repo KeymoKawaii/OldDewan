@@ -1,0 +1,19 @@
+.Application div{
+    text-align: center;
+}
+
+.Application img{
+    width: 100px;
+}
+
+div h4{
+    margin-block-end: 2em;
+}
+
+.Application{
+    background-color: var(--main-white);
+}
+
+.DescriptionEDDMA{
+    text-align: center;
+}

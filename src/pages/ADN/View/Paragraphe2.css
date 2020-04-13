@@ -1,0 +1,67 @@
+.Paragraphe3, .Paragraphe4{
+    font-size: var(--main-fsize);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.opposition div .TitreAppr{
+    font-size: var(--main-fsize);
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
+
+.opposition span{
+    font-weight: bold;
+}
+
+.opposition{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url("../../../img/man-working-in-modern-office.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.opposition .negatif{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border-right: white 1px solid;
+}
+
+.opposition .positif{
+    background-color: hsla(321, 80%, 43%, 0.753);
+    color: white;
+    border-left: white 1px solid;
+}
+
+.opposition div{
+    width: 350px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    border: 1px black solid;
+    padding-top: 5px;
+    height: 320px;
+}
+
+.Apprentissage span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+    .opposition{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

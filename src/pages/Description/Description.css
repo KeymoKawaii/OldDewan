@@ -1,0 +1,13 @@
+.Formation{
+    padding-top: 3vh;
+    background-color: var(--main-grey);
+}
+
+.Formation h2{
+    text-align: center;
+    font-size:  var(--main-fsize);
+    font-weight: normal;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 2vh;
+}

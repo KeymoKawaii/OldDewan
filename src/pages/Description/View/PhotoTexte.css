@@ -1,0 +1,34 @@
+.FormationPhoto{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    font-size: var(--main-fsize);
+    color: var(--main-black);
+    text-align: center;
+}
+
+
+.FormationPhoto img{
+    width: 30%;
+    min-width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 2vh;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .FormationPhoto div{
+        position: relative;
+    }
+    .FormationPhoto p{
+        display: inline;
+    }.Text2{
+        margin-top: 70px;
+    }
+    .FormationPhoto{
+        width: 100%;
+    }
+}
