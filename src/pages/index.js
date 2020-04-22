@@ -10,7 +10,7 @@ import SEO from "../components/seo";
 
 export default () => (
   <Layout>  
-            <SEO title="Dewan Développement" />
+            <SEO title="La Relation à votre avantage !" />
             <Formation />
             <ADN />
             <Application />
