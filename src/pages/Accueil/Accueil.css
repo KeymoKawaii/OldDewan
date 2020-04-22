@@ -7,46 +7,10 @@
 
 header{
     position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
-
-.FirstPage{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-image: url("../../img/team-3653392_1920.jpg");
-    z-index: -1;
-}
-
-.CoronaPage{
-    position: absolute;
-    z-index: 1;
     min-height: 100vh;
     width: 100%;
-    background-color: var(--main-color);
-    display: flex;
-    animation: SlideAccueil1 28s infinite;
+    background-image: url("../../img/team-3653392_1920.jpg");
 }
-
-.CoronaPage p{
-    width: 70%;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    color: white;
-}
-
-.CoronaPage p a{
-    color: white;
-    text-decoration: underline;
-}
-
 
 h1{
     font-size: 5rem;
@@ -62,11 +26,6 @@ h1{
     padding-top: 10%;
     padding-left: 35%;
     width: 90%;
-}
-
-.titre{
-    font-size: 50px;
-    font-weight: bold;
 }
 
 header h1 span hr{
