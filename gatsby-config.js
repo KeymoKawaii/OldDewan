@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Dewan Développement`,
-    description: `La formation à portée de main. Digital Micro Learning.
+    description: `La formation à porter de main. Digital Micro Learning.
     Des parcours pour développer son potentiel relationnel, prendre du recul sur les situations de tension, 
     augmenter son self management, sa confiance et la maitrise de soi.`,
     author: `@Keymo`,
@@ -29,15 +29,15 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/img/Logo-Dewan-Developpement-RVB.jpg`, // This path is relative to the root of the site.
-      }},
+      },
     // },{
     //   resolve: `gatsby-source-wordpress`,
     //   options: {
     //       // Specify the URL of the WordPress source
-    //       baseUrl: `https://dewandev.com/`,
+    //       baseUrl: `https://dewandev.com/wordpress`,
     //       protocol: `https`,
     //       // Indicates if a site is hosted on WordPress.com
-    //       hostingWPCOM: true,
+    //       hostingWPCOM: false,
     //       // Specify which URL structures to fetch
     //       includedRoutes: [
     //         '**/posts',
@@ -45,8 +45,7 @@ module.exports = {
     //         '**/categories'
     //       ]
     //   }
-    // }
-    ,{
+    },{
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
