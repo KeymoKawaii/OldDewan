@@ -5,14 +5,13 @@ import FB from '../../img/facebook.svg';
 import TW from '../../img/twitter.svg';
 import logo from '../../img/LogoKeymo.svg';
 
-import SEO from "../../components/seo";
+// import SEO from "../../components/seo";
 import './Footer.css';
 import TextCoord from "./TextContact/TextCoord";
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const Footer = () => (
   <Fragment>
-    <SEO title="footer" />
     <footer>
                 <div id="Contact">
                     <TextCoord />
