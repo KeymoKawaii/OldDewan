@@ -34,7 +34,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
           // Specify the URL of the WordPress source
-          baseUrl: `https://dewandev.com/wordpress`,
+          baseUrl: `https://dewandev.com/`,
           protocol: `https`,
           // Indicates if a site is hosted on WordPress.com
           hostingWPCOM: true,
