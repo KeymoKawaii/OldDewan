@@ -3,6 +3,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 import Menu from "../../img/menu.svg"
 import logo from '../../img/Logo-Dewan-Developpement-RVB.jpg';
+import Head from './../Accueil/Accueil';
 
 export default class Nav extends React.Component{
     constructor(){
@@ -31,6 +32,8 @@ export default class Nav extends React.Component{
 
     render(){
         return(
+            <header>
+            <Head />
             <nav>
         <AnchorLink to="/"><img src={logo} className="logo" alt="Logo de DEWAN Developpement"/></AnchorLink>
         <ul className="NavPC">
@@ -57,6 +60,7 @@ export default class Nav extends React.Component{
                 )
         }
       </nav>
+      </header>
         )
     }
 }

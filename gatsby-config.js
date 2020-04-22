@@ -5,6 +5,8 @@ module.exports = {
     Des parcours pour développer son potentiel relationnel, prendre du recul sur les situations de tension, 
     augmenter son self management, sa confiance et la maitrise de soi.`,
     author: `@Keymo`,
+    siteUrl: "https://dewandev.com",
+    pathPrefix: '/'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,10 +34,10 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
           // Specify the URL of the WordPress source
-          baseUrl: `https://dewandev.com`,
+          baseUrl: `https://dewandev.com/wordpress`,
           protocol: `https`,
           // Indicates if a site is hosted on WordPress.com
-          hostingWPCOM: false,
+          hostingWPCOM: true,
           // Specify which URL structures to fetch
           includedRoutes: [
             '**/posts',
