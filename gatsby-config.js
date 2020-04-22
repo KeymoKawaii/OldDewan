@@ -29,23 +29,24 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/img/Logo-Dewan-Developpement-RVB.jpg`, // This path is relative to the root of the site.
-      },
-    },{
-      resolve: `gatsby-source-wordpress`,
-      options: {
-          // Specify the URL of the WordPress source
-          baseUrl: `https://dewandev.com/`,
-          protocol: `https`,
-          // Indicates if a site is hosted on WordPress.com
-          hostingWPCOM: true,
-          // Specify which URL structures to fetch
-          includedRoutes: [
-            '**/posts',
-            '**/tags',
-            '**/categories'
-          ]
-      }
-    },{
+      }},
+    // },{
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //       // Specify the URL of the WordPress source
+    //       baseUrl: `https://dewandev.com/`,
+    //       protocol: `https`,
+    //       // Indicates if a site is hosted on WordPress.com
+    //       hostingWPCOM: true,
+    //       // Specify which URL structures to fetch
+    //       includedRoutes: [
+    //         '**/posts',
+    //         '**/tags',
+    //         '**/categories'
+    //       ]
+    //   }
+    // }
+    ,{
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
