@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Dewan Développement`,
-    description: `La formation à portée de main. Digital Micro Learning.
-    Des parcours pour développer son potentiel relationnel, prendre du recul sur les situations de tension, 
-    augmenter son self management, sa confiance et la maitrise de soi.`,
+    description: `Dewan développe des outils numériques pour l’organisation et 
+    l’amélioration de l'intelligence relationnelle à partir de chatbot, microlearning, micro coaching.`,
     author: `@Keymo`,
     siteUrl: "https://dewandev.com",
     pathPrefix: '/'
