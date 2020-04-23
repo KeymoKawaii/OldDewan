@@ -18,5 +18,6 @@ export default () => (
             <Application />
             <Utilisation />
             <Team />
+            {/* Commit exemple */}
   </Layout>
 )
